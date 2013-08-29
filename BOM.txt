@@ -1,0 +1,43 @@
+Copyright (C) 2013 mirage335
+See the end of the file for license conditions.
+See license.txt for OpenDisplay license conditions.
+
+mirage335-site.dyndns.org
+
+__RecommendedPurchases__
+$37.00 - 400W Metal Halide Ballast Kit
+http://www.ebay.com/itm/400W-Watt-Metal-Halide-Ballast-Kit-MH-400-120-208-240-277-ANSI-M59-/271173013451?pt=LH_DefaultDomain_0&hash=item3f232bcfcb
+
+$19.97 - 400W >6000K Metal Halide Bulb
+http://www.homedepot.com/p/ViaVolt-400-Watt-Metal-Halide-Replacement-Grow-HID-Light-Bulb-V400MH/204323266#.Uh1hwmEpFB4
+
+$38.00 - $19.00 * 2 - Condenser Lens - 25mm EFL, 20.4mm Diameter
+http://www.edmundoptics.com/optics/optical-lenses/ball-condenser-lenses/condenser-lenses/43483
+
+$34.00 - Zoom Tripplet Projection Lens
+http://www.optolife.com/diy_projector_lens/ASSY013.html
+
+Total: $128.97
+
+__BestScavenged__
+$237.50 - $47.50 * 5 - Giant Fresnel Lens - 31" (787.4mm) Focal Length
+http://www.ebay.com/itm/51-MINT-FRESNEL-LENS-linear-solar-water-heater-OVEN-/171013178439?pt=LH_DefaultDomain_0&hash=item27d12e0447
+
+$209 - 1080p Monitor
+http://www.newegg.com/Product/Product.aspx?Item=N82E16824005405
+
+__Copyright__
+This file is part of OpenDisplay.
+
+OpenDisplay is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+OpenDisplay is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with OpenDisplay.  If not, see <http://www.gnu.org/licenses/>

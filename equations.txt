@@ -1,0 +1,16 @@
+﻿"colF2"= 787.4
+"colF1"= 787.4
+"colD"= 350
+"colEFL"= ( ( 1 / "colF2" ) + 1 / ( "colF1" ) - "colD" / ( "colF2" * "colF1" ) ) ^ - 1
+"colBFL"= ( ( "colF2" * ( "colD" - "colF1" ) ) / ( "colD" - ( "colF1" + "colF2" ) ) )
+"conD"= 60
+"conF1"= 787.4
+"conF2"= 787.4/2
+"conEFL"= ( ( - 1 * "conF1" * "conF2" ) / ( "conD" - "conF1" - "conF2" ) )
+"conBFL"= ( ( "conF2" * ( "conD" - "conF1" ) ) / ( "conD" - ( "conF1" + "conF2" ) ) )
+"condenserEFL"= 20.40
+"condenserDiameter"= 25
+"colBEAM"= "condenserDiameter" * ( "colEFL" / "condenserEFL" )
+"projectorFL"= 310'Condition: LCD Distance > projectorFL
+"LCD_Distance"= 365
+"imageDistance"= ( ( "LCD_Distance" * "projectorFL" ) / ( "LCD_Distance" - "projectorFL" ) )

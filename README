@@ -1,0 +1,92 @@
+Copyright (C) 2013 mirage335
+See the end of the file for license conditions.
+See license.txt for OpenDisplay license conditions.
+
+mirage335-site.dyndns.org
+
+Default equations.txt and BOM.txt recommendations accomodate up to 23" displays. Projection range is approximately 2-25m.
+
+A free eDrawings viewer is available to investigate the design given these parameters.
+
+Beyond these defaults, the CAD model can be used in Solidworks to adapt the design to available lenses, or test a wide variety of advanced projector designs.
+
+_Instructions_
+Assembly components are, from right to left:
+1) Reflector.
+2) First condenser lens.
+3) Second condenser lens.
+4) Anti-vignetting layer.
+5) Secondary collector Fresnel lens.
+6) Primary collector Fresnel lens.
+7) LCD panel.
+8) Primary concentrator Fresnel lens.
+9) Secondary concentrator Fresnel lens.
+10) Tripplet projection lens.
+11) Projected image.
+
+High intensity light source should be mounted at the focal point of the first condenser lens, with reflector behind it as shown. Align these elements to produce a collimated beam. Verify by projecting the smallest possible image through this assembly on a moderately far away wall.
+
+Secondary and primary collector Fresnel lenses form a compound lens. Arrange these at the separation specified by the CAD model. Place the second condenser lens such that its focal point meets the expected back focal point for the compound Fresnel lens, as shown in the CAD model. Align these elements to expand the previous collimated beam. Verify by projecting the smallest possible image through this assembly on a moderately far away wall.
+
+Primary and secondary concentrator Fresnel lenses also form a compound lens. Secondary concentrator Frensel lens itself may be compound, arranged as shown in CAD model. Arrange these at the separation specified by the CAD model. If the previous beam was well collimated, and your light source was adequately high-intensity, it should be able to concentrate the expanded beam entirely into the projection lens, at the point suggested by the CAD model.
+
+With all light-collection optics aligned, mount the LCD panel, at the positions suggested by the CAD model. It is advisable to place the LCD panel in a rotary platform, for keystone correction.
+
+Finally, adjust the tripplet projection lens to produce a clear image on whatever screen is desired.
+
+Optionally, anti-vignetting layer should be printed or laser etched on transparent material, and based on an image taken of projector output without it.
+
+_Practical_
+*) Fresnel lens scratches or deformations may greatly degrade image quality. Better to obtain these fresh out of old broken rear-projection TVs than purchase them from less trustworthy sources.
+*) A high-power high-intensity light source is required. Lasers, short-arc lamps, metal halide bulbs and some LEDS may be suitable, in that order or preference.
+*) High color temperature (>6000K) is required for accurate color reproduction. Soft-white (ie. 4000K) is horrible.
+*) Tripplet projection lenses with adjustable focal length are strongly recommended. Non-adjustable lenses will require repositioning for focal adjustment, likely to force readjustment of the light-gathering optics.
+
+_Performance_
+Carefully arranged optics will achieve nearly 50% light capture from isometric point-sources, with most of the loss occurring due to non-circular display area.
+
+Based on other DIY projector examples, >=32k lumen metal-halide bulbs are thought to offer final light output around 2.5k to 5k lumens. If accurate, these low-efficiency figures would likely be explained by insufficient intensity (and subsequent inability to sufficiently reconcentrate light into projection lens).
+
+Short-arc lamps are expected to offer >10k lumens final light output.
+
+_Safety_
+Treat all high-intensity light sources as Class 4 lasers. Catastrophic retina damage will occur upon any kind of close-range direct viewing, and indirect viewing under unfavorable conditions may be equally devastating. Extreme brightness (>>10k lumens), dangerous UV output, and collimation/concentration are laser-like qualities to respect carefully. Caution also applies to the projected light, as this design is technically capable of harnessing much of the light from any isometric source.
+
+These warnings apply to all high-performance projection or lighting systems.
+
+Aligning optics with low-power moderate-intensity sources, such as certain LEDs, is advisable.
+
+Fire is a likely possibility whenever dealing with high-power systems. Take appropriate precautions.
+
+No claim of liability is made by anyone. Your accident is your accident. Use common sense. If you don't understand the safety features and limitations, don't use this.
+
+_Design_
+*) Illumination guidance is mostly independent from imaging. Illumination optics should fully supply LCD with collimated light, and concentrate of that light back into the projection lens for imaging.
+*) Projection lens must be at least its focal length from the LCD at all times.
+*) Limited selection of consumer available lenses drive the design. Generally, do not expect to find f/>1 condenser lenses, >500mm focal length tripplet projection lenses, or <500mm focal length giant Fresnel lenses.
+*) Adequately large and short focal length Fresnel lenses are uncommon. Compound assemblies are used to compensate, and offer greater control over the light path.
+
+_Prototype_
+Under construction at HacDC. Specialized 3D printable Fresnel lens brackets will be tested.
+
+_Wishlist_
+*) Nonimaging condenser optics may increase efficiency, achieving light capture approaching 100% from isometric sources.
+*) The physical and effective focal lengths may be calculated rather than geometrically derived. As such, raytracing through compound lenses is only approximate.
+*) Lens shapes are not accurately modeled.
+*) Solidworks is unavailable to many people. An equally parametric OpenSCAD model would be appreciated.
+
+__Copyright__
+This file is part of OpenDisplay.
+
+OpenDisplay is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+OpenDisplay is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with OpenDisplay.  If not, see <http://www.gnu.org/licenses/>.
